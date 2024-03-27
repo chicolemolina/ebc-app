@@ -2,6 +2,7 @@
 'use client'
 
 import { useState } from "react";
+import LogoEbc from "./logo-ebc";
 import Link from 'next/link';
 import { 
         
@@ -49,7 +50,7 @@ export default function Navbar()
                 <div>
                     <Link href="/">
 
-                        <img src={'https://socios.excellencebusinessclub.com/assets/media/logo.jpg'} alt="Logo EBC" /> 
+                         <LogoEbc />
 
                     </Link>
                 </div>
